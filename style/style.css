@@ -103,15 +103,6 @@ body{
     line-height: 60px;
     white-space: nowrap;
 }
-.integrante{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 10px 0 10px 0;
-    align-items: center;
-    font-size: 30px;
-    color: #f0f0f0;
-}
 .conteudo{
     position: relative;    
     background: #1D232A;
@@ -123,6 +114,16 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: baseline;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 80%;
+    font-size: 30px;
+    color: #f0f0f0;
+    width: 100%;
+    padding: 10px 0 10px 0;
 }
 .navigation ~ .conteudo{
     left: 100px;
@@ -257,6 +258,9 @@ body{
 }
 .box-imagem{
     margin: 40px;
+}
+.img_desc{
+    width: 70%;
 }
 .bolinha{
     position: absolute;
